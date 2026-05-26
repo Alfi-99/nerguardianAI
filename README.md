@@ -83,6 +83,8 @@ Menyaring data tidak terstruktur (Nama & Alamat) menggunakan model Named Entity 
 
 * **Respons Asli Gemini 2.5 Flash (Bebas Kebocoran PII):**
   > *"Halo `[REDACT_NAMA]`! Selamat datang. Terima kasih atas informasinya. Saya siap membantu Anda. Ada yang bisa saya bantu hari ini? ..."*
+* **Gambar Screenshot: **
+  <img width="1479" height="796" alt="WhatsApp Image 2026-05-26 at 08 05 02" src="https://github.com/user-attachments/assets/69931c37-8279-4eb3-8c8a-c9465f9cc9a0" />
 
 ---
 
