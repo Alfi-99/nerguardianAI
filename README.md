@@ -137,40 +137,4 @@ Menyaring data tidak terstruktur (Nama & Alamat) menggunakan model Named Entity 
    ```bash
    npm run dev
    ```
-   *Frontend akan aktif di [http://localhost:3000](http://localhost:3000).*
-
----
-
-## 5. Sumber Daya & Performa (Resource Estimate)
-
-| Komponen | Penggunaan CPU | Penggunaan Memory | Latency Inferensi |
-| --- | --- | --- | --- |
-| **NER Flask Service** | ~2–8% saat memproses | ~25–50 MB | **0.1 - 3 ms** |
-| **Next.js App** | <2% (idle) | ~60–100 MB | Tergantung koneksi internet ke Gemini |
-| **Regex Guardrail** | <0.1% | Minimal | **< 0.1 ms** |
-
----
-
-## 6. Rencana Deployment (Bonus - Non-GKE & GKE)
-
-Jika sistem ini akan dideploy ke tingkat produksi, arsitektur deployment yang direkomendasikan adalah menggunakan kontainerisasi Docker:
-
-### Langkah Deployment ke GKE (Google Kubernetes Engine)
-1. **Buat Dockerfile** untuk masing-masing service.
-   * *Contoh Dockerfile NER Service:*
-     ```dockerfile
-     FROM python:3.11-slim
-     WORKDIR /app
-     COPY requirements.txt .
-     RUN pip install --no-cache-dir -r requirements.txt
-     COPY . .
-     RUN python train_ner.py
-     EXPOSE 5000
-     CMD ["python", "app.py"]
-     ```
-2. **Build & Push Image** ke Google Artifact Registry (GAR):
-   ```bash
-   docker build -t gcr.io/PROJECT_ID/ner-service:latest ./ner-service
-   docker push gcr.io/PROJECT_ID/ner-service:latest
-   ```
-3. **Deploy ke GKE** menggunakan file manifes Kubernetes `deployment.yaml` dan hubungkan Next.js dengan URL service internal dari Kubernetes.
+    *Frontend akan aktif di [http://localhost:3000](http://localhost:3000).*
