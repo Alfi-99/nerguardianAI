@@ -1,0 +1,82 @@
+[
+  {
+    "text": "Nama saya Budi Santoso dan tinggal di Jalan Sudirman Jakarta",
+    "entities": [
+      {"start": 10, "end": 22, "label": "PERSON"},
+      {"start": 38, "end": 60, "label": "ADDRESS"}
+    ]
+  },
+  {
+    "text": "Saya Ani Rahayu berdomisili di Jl. Gatot Subroto No. 5 Bandung",
+    "entities": [
+      {"start": 5, "end": 15, "label": "PERSON"},
+      {"start": 30, "end": 62, "label": "ADDRESS"}
+    ]
+  },
+  {
+    "text": "Pelanggan atas nama Dian Purnama beralamat di Jl. Merdeka 10 Surabaya",
+    "entities": [
+      {"start": 20, "end": 32, "label": "PERSON"},
+      {"start": 46, "end": 69, "label": "ADDRESS"}
+    ]
+  },
+  {
+    "text": "Tolong bantu saya, nama saya Riko Pratama",
+    "entities": [
+      {"start": 29, "end": 41, "label": "PERSON"}
+    ]
+  },
+  {
+    "text": "Alamat saya di Komplek Permata Indah Blok B2 Depok",
+    "entities": [
+      {"start": 15, "end": 50, "label": "ADDRESS"}
+    ]
+  },
+  {
+    "text": "Halo, saya Siti Nurhaliza tinggal di Jl. Pahlawan No. 3 Yogyakarta",
+    "entities": [
+      {"start": 11, "end": 25, "label": "PERSON"},
+      {"start": 37, "end": 66, "label": "ADDRESS"}
+    ]
+  },
+  {
+    "text": "Pesanan atas nama Agus Wijaya dikirim ke Jl. Ahmad Yani 88 Semarang",
+    "entities": [
+      {"start": 18, "end": 29, "label": "PERSON"},
+      {"start": 41, "end": 67, "label": "ADDRESS"}
+    ]
+  },
+  {
+    "text": "Nama saya Dewi Lestari, saya tinggal di Gang Mawar RT 3 RW 2 Bogor",
+    "entities": [
+      {"start": 10, "end": 22, "label": "PERSON"},
+      {"start": 40, "end": 66, "label": "ADDRESS"}
+    ]
+  },
+  {
+    "text": "Mohon info tagihan atas nama Hendra Gunawan",
+    "entities": [
+      {"start": 29, "end": 43, "label": "PERSON"}
+    ]
+  },
+  {
+    "text": "Saya beralamat di Perumahan Griya Asri Blok A1 Tangerang Selatan",
+    "entities": [
+      {"start": 18, "end": 64, "label": "ADDRESS"}
+    ]
+  },
+  {
+    "text": "Nama lengkap saya Putri Ayu Rahayu dan saya tinggal di Jalan Raya Bekasi KM 10",
+    "entities": [
+      {"start": 18, "end": 34, "label": "PERSON"},
+      {"start": 55, "end": 79, "label": "ADDRESS"}
+    ]
+  },
+  {
+    "text": "Customer bernama Fajar Nugroho berdomisili di Jl. Diponegoro No. 45 Malang",
+    "entities": [
+      {"start": 17, "end": 30, "label": "PERSON"},
+      {"start": 46, "end": 74, "label": "ADDRESS"}
+    ]
+  }
+]

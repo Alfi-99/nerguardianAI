@@ -1,0 +1,30 @@
+{
+  "person_terms": [
+    "Dian Purnama",
+    "Agus Wijaya",
+    "Fajar Nugroho",
+    "Budi Santoso",
+    "Ani Rahayu",
+    "Riko Pratama",
+    "Siti Nurhaliza",
+    "Putri Ayu Rahayu",
+    "Hendra Gunawan",
+    "Dewi Lestari"
+  ],
+  "address_terms": [
+    "Jl. Diponegoro No. 45 Malang",
+    "Jalan Raya Bekasi KM 10",
+    "Perumahan Griya Asri Blok A1 Tangerang Selatan",
+    "Jl. Gatot Subroto No. 5 Bandung",
+    "Jl. Merdeka 10 Surabaya",
+    "Gang Mawar RT 3 RW 2 Bogor",
+    "Komplek Permata Indah Blok B2 Depok",
+    "Jalan Sudirman Jakarta",
+    "Jl. Pahlawan No. 3 Yogyakarta",
+    "Jl. Ahmad Yani 88 Semarang"
+  ],
+  "labels": [
+    "ADDRESS",
+    "PERSON"
+  ]
+}
